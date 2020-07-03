@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?tzb13i');
+  src:  url('fonts/icomoon.eot?tzb13i#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tzb13i') format('truetype'),
+    url('fonts/icomoon.woff?tzb13i') format('woff'),
+    url('fonts/icomoon.svg?tzb13i#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ytb-red .path1:before {
+  content: "\c900";
+  color: rgb(255, 0, 0);
+}
+.icon-ytb-red .path2:before {
+  content: "\c901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ytb-white:before {
+  content: "\c902";
+  color: #fff;
+}
+.icon-mail:before {
+  content: "\c903";
+}
+.icon-phone:before {
+  content: "\c904";
+}
+.icon-videocam:before {
+  content: "\c905";
+}
+.icon-right:before {
+  content: "\c906";
+}
+.icon-left:before {
+  content: "\c907";
+}
+.icon-up:before {
+  content: "\c908";
+}
+.icon-share:before {
+  content: "\c909";
+}
+.icon-send:before {
+  content: "\c910";
+}
+.icon-close:before {
+  content: "\c911";
+}
+.icon-menu:before {
+  content: "\c912";
+}
+.icon-down:before {
+  content: "\c913";
+}
+.icon-play-round:before {
+  content: "\c914";
+}
